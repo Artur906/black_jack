@@ -2,19 +2,17 @@ let cards = []
 let sum = 0 
 let message = ""
 
-let hasBlackJack = false
-let itsAlive = false
-let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
-let cardsEl = document.getElementById("card-el")
-let userName = "Jhon"
-let chache = 145
-let playerEl = document.getElementById("player-el")
 
 let player = {
    userName: "Jhon",
    chips: 0
 }
+let hasBlackJack = false
+let itsAlive = false
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+let cardsEl = document.getElementById("card-el")
+let playerEl = document.getElementById("player-el")
 
 
 // another way of get some element its using querySelector, this makes the things more flexible, once that you can grab more than elements by id   
